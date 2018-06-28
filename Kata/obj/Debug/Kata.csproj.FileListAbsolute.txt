@@ -1,0 +1,17 @@
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\bin\Debug\Kata.exe.config
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\bin\Debug\Kata.exe
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\bin\Debug\Kata.pdb
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\obj\Debug\Kata.csprojAssemblyReference.cache
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\obj\Debug\Kata.csproj.CoreCompileInputs.cache
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\obj\Debug\Kata.exe
+c:\users\lourdes.bloin\documents\visual studio 2017\Projects\Kata\Kata\obj\Debug\Kata.pdb
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\obj\Debug\Kata.csprojAssemblyReference.cache
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\obj\Debug\Kata.csproj.CoreCompileInputs.cache
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\obj\Debug\Kata.exe
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\obj\Debug\Kata.pdb
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\bin\Debug\Kata.exe.config
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\bin\Debug\Kata.exe
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\bin\Debug\Kata.pdb
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\bin\Debug\Autofac.dll
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\bin\Debug\Autofac.xml
+C:\Users\lourdes.bloin\Documents\Visual Studio 2017\Projects\KATA_Solutions\Kata\obj\Debug\Kata.csproj.CopyComplete
