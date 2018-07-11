@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -12,19 +13,35 @@ namespace Kata
 	class Program
 	{
 		private readonly IKataSolutions _kataSolutions;
-		public Program(IKataSolutions kataSolutions)
+		private readonly IMoreSolutions _moreSolutions;
+		public Program(IKataSolutions kataSolutions, IMoreSolutions moreSolutions)
 		{
-			this._kataSolutions = kataSolutions;
-			
+			_kataSolutions = kataSolutions;
+			_moreSolutions = moreSolutions;
 		}
 
 		private void Run()
 		{
+			int adid = 543307;
+			//Console.WriteLine("543307Z --" + _moreSolutions.ConvertCharToNumber(adid, "543307Z"));
+			//Console.WriteLine("543307AA --" + _moreSolutions.ConvertCharToNumber(adid, "543307AA"));
+			//Console.WriteLine("543307AZ --" + _moreSolutions.ConvertCharToNumber(adid, "543307AZ"));
+			//Console.WriteLine("543307BA --" + _moreSolutions.ConvertCharToNumber(adid, "543307BA"));
+			//Console.WriteLine("543307BZ --" + _moreSolutions.ConvertCharToNumber(adid, "543307BZ"));
+			//Console.WriteLine("543307AAA --" + _moreSolutions.ConvertCharToNumber(adid, "543307AAA"));
+			//Console.WriteLine("543307AZA --" + _moreSolutions.ConvertCharToNumber(adid, "543307AZA"));
+			string id = Console.ReadLine();
+			while (!string.IsNullOrEmpty(id))
+			{
+				Console.WriteLine(id + "--" + _moreSolutions.ConvertCharToNumber(adid, id));
+				id = Console.ReadLine();
+			}
+
 			var result = _kataSolutions.SqInRect(5, 3);
 			Console.Write('{');
-			result.ForEach(x=>Console.Write(x + ","));
+			result.ForEach(x => Console.Write(x + ","));
 			Console.WriteLine('}');
-			
+
 			result = _kataSolutions.SqInRect(90, 5);
 			Console.Write('{');
 			result?.ForEach(x => Console.Write(x + ","));
@@ -47,13 +64,10 @@ namespace Kata
 		}
 
 		public static void Main(string[] args)
-			{
+		{
 			var container = Container.ConfigureContainer();
 			var program = container.Resolve<Program>();
-				program.Run();
-
-
-
+			program.Run();
 		}
 	}
 }

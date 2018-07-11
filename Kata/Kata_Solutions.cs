@@ -11,6 +11,7 @@ namespace Kata
 	{
 		public bool ValidParentheses(string input)
 		{
+			////http://www.codewars.com/kata/valid-parentheses/train/csharp
 			if (input.Length == 0 || input.Length % 2 != 0 || input[0] == ')') return false;
 
 			var parentheses = new Dictionary<string, int>();

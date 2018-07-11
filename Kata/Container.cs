@@ -18,6 +18,7 @@ namespace Kata
 			// Register all dependencies
 			builder.RegisterType<Program>().AsSelf();
 			builder.RegisterType<KataSolutions>().As<IKataSolutions>();
+			builder.RegisterType<MoreSolutions>().As<IMoreSolutions>();
 
 			return builder.Build();
 		}

@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="Container.cs" />
     <Compile Include="IKataSolutions.cs" />
+    <Compile Include="IMoreSolutions.cs" />
     <Compile Include="Kata_Solutions.cs" />
+    <Compile Include="MoreSolutions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
